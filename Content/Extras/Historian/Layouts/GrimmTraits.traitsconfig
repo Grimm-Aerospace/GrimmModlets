@@ -1,0 +1,115 @@
+TRAIT
+{
+	Name = Pilot
+	DisplayName = #autoLOC_500101
+	Label = (Pl)
+	//Color = red
+	Color = clear
+}
+
+TRAIT
+{
+	Name = Engineer
+	DisplayName = #autoLOC_500103
+	Label = (Eng)
+	//Color = yellow
+	Color = clear
+}
+
+TRAIT
+{
+	Name = Scientist
+	DisplayName = #autoLOC_500105
+	Label = (Sci)
+	//Color = aqua
+	Color = clear
+}
+
+TRAIT
+{
+	Name = Tourist
+	DisplayName = #autoLOC_500107
+	Label = (Tr)
+	//Color = green
+	Color = clear
+}
+
+TRAIT
+{
+	Name = Kolonist
+	DisplayName = Kolonist
+	Label = (Kln)
+	//Color = orange
+}
+
+TRAIT
+{
+	Name = Miner
+	DisplayName = Miner
+	Label = (Min)
+	//Color = orange
+}
+
+TRAIT
+{
+	Name = Technician
+	DisplayName = Technician
+	Label = (Tec)
+	//Color = orange
+}
+
+TRAIT
+{
+	Name = Mechanic
+	DisplayName = Mechanic
+	Label = (Mec)
+	//Color = orange
+}
+
+TRAIT
+{
+	Name = Biologist
+	DisplayName = Biologist
+	Label = (Bio)
+	//Color = orange
+}
+
+TRAIT
+{
+	Name = Geologist
+	DisplayName = Geologist
+	Label = (Geo)
+	//Color = orange
+}
+
+TRAIT
+{
+	Name = Farmer
+	DisplayName = Farmer
+	Label = (Frm)
+	//Color = orange
+}
+
+TRAIT
+{
+	Name = Medic
+	DisplayName = Medic
+	Label = (Med)
+	//Color = #ff9999
+}
+
+TRAIT
+{
+	Name = Quartermaster
+	DisplayName = Quartermaster
+	Label = (Qmt)
+	//Color = orange
+}
+
+TRAIT
+{
+	Name = Scout
+	DisplayName = Scout
+	Label = (Sct)
+	//Color = orange
+}

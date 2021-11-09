@@ -1,0 +1,55 @@
+KSEA_HISTORIAN_LAYOUT
+{
+	Name = GrimmSituational
+	
+	RECTANGLE
+	{
+		Anchor = 0.0,1.0
+		Size = 1.0,0.2
+		Position = 0.0,0.95
+		Color = 0.0,0.0,0.0,0.5
+	}
+
+	FLAG
+	{
+		Anchor = 0.5,0.5
+		Position = 0.1,0.85
+		Size = 0.195,0.20
+		DefaultTexture = Squad/Flags/default
+	}
+
+
+	SITUATION_TEXT
+	{
+		Anchor = 0.0,1.0
+		Size = 0.80,0.224
+		Position = 0.20,1.0
+		Color = 1.0,1.0,1.0,1.0
+		TextAnchor = UpperLeft
+		Font = Courier New
+		FontSize = 30
+		FontStyle = Normal
+		
+		Default = <b><UT></b><N><T+><N><Custom>
+		
+		Landed = <size=30><b><Vessel></b></size><N><size=20><N><b><Body>, <UT> (T+ <T+>)</b>, Alt. <Altitude> - <LatitudeDMS>, <LongitudeDMS><N>Landed on <Body>'s <LandingZone><N>Roster: <Crew(false, false, true, All)><N><Custom></size>
+		
+		Splashed = <size=30><b><Vessel></b></size><N><size=20><N><b><Body>, <UT> (T+ <T+>)</b>, Alt. <Altitude> - <LatitudeDMS>, <LongitudeDMS><N>Splashed in <Body>'s Waters<N>Roster: <Crew(false, false, true, All)><N><Custom></size>
+		
+		Prelaunch = <size=30><b><Vessel></b></size><N><size=20><N><b><Body>, <UT> (T+ <T+>)</b>, Alt. <Altitude> - <LatitudeDMS>, <LongitudeDMS><N>Preparing for launch from <Body>'s <LandingZone><N>Roster: <Crew(false, false, true, All)><N><Custom></size>
+		
+		Flying = <size=30><b><Vessel></b></size><N><size=20><N><b><Body>, <UT> (T+ <T+>)</b>, Alt. <Altitude> - <LatitudeDMS>, <LongitudeDMS><N>Flying at Mach <Mach> (<Speed>) <Altitude> over <Body>'s <Biome><N>Roster: <Crew(false, false, true, All)><N><Custom></size>
+		
+		SubOrbital = <size=30><b><Vessel></b></size><N><size=20><N><b><Body>, <UT> (T+ <T+>)></b>, Alt. <Altitude> - <LatitudeDMS>, <LongitudeDMS><N>On a sub-orbital trajectory <Altitude> over <Body><N>Roster: <Crew(false, false, true, All)><N><Custom></size>
+		
+		Orbiting = <size=30><b><Vessel></b></size><N><size=20><N><b><Body>, <UT> (T+ <T+>)</b>, Alt. <Altitude> - <LatitudeDMS>, <LongitudeDMS><N>Orbiting <Body><N>Roster: <Crew(false, false, true, All)><N><Custom></size>
+		
+		Escaping = <size=30><b><Vessel></b></size><N><size=20><N><b><Body>, <UT> (T+ <T+>)</b>, Alt. <Altitude> - <LatitudeDMS>, <LongitudeDMS><N>On an escape trajectory from <Body><N>Roster: <Crew(false, false, true, All)><N><Custom></size>
+		
+		Docked = <size=30><b><Vessel></b></size><N><size=20><N><b><Body>, <UT> (T+ <T+>)</b>, Alt. <Altitude> - <LatitudeDMS>, <LongitudeDMS><N>Docked at <Body><N>Roster: <Crew(false, false, true, All)><N><Custom></size>
+		
+		TRAITDEFINITIONS = GrimmTraits.traitsconfig
+		
+		
+	}
+}

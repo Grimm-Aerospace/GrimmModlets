@@ -1,0 +1,33 @@
+{
+    "spec_version"        : "v1.4",
+    "identifier"          : "GrimmModlets",
+	"license"             : "MIT",
+	"$kref"	              : "#/ckan/github/Grimm-Aerospace/GrimmModlets",
+    "ksp_version_min"     : "1.12",
+    "name"                : "Grimm Modlets",
+    "abstract"            : "Mini mods for KSP.",
+    "author"              : "Grimmas",
+    
+    "resources": {
+      "homepage": "https://github.com/Grimm-Aerospace/GrimmModlets",
+      "repository": "https://github.com/Grimm-Aerospace/GrimmModlets"
+    },
+	
+	"tags": [
+		"core"
+	],
+	
+	"depends": [
+        { "name": "ModuleManager" }
+    ],
+	
+	"recommends": [
+        { "name": "B9PartSwitch" }
+    ],
+	
+	"suggests": [
+        { "name": "KerbalEngineerRedux" },
+		{ "name": "KerbalAlarmClock" }
+    ]
+	
+}
