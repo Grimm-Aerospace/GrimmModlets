@@ -35,3 +35,4 @@ Dependencies: No hard dependencies. The patches activate and become useful when 
 2. fix JNSQUSIWarpDrive patch activation conditions
 3. add MKS tank types for B9
 4. convert remaining USI mods from FS to B9PS
+5. finish adding remaining HDD upgrades starting with ProbeExpansion
