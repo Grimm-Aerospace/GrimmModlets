@@ -31,8 +31,7 @@ Dependencies: No hard dependencies. The patches activate and become useful when 
 
 ## TODO
 
-1. add HDD/sample slot upgrades for BDB/Kerbalism
-2. fix JNSQUSIWarpDrive patch activation conditions
-3. add MKS tank types for B9
-4. convert remaining USI mods from FS to B9PS
-5. finish adding remaining HDD upgrades starting with ProbeExpansion
+1. fix JNSQUSIWarpDrive patch activation conditions
+2. add MKS tank types for B9
+3. convert remaining USI mods from FS to B9PS
+4. add emitters for RTG
