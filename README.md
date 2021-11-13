@@ -36,11 +36,11 @@ Use at your own risk, generally **no support provided**. Please feel free to sub
 
 ### BDBCryoTanks
 
-+ **What?** Replaces BDB boiloff with CryoTanks boiloff. This is included in BDB's extras on the main branch, but can be useful if you're playing with the Apollo revamp.
++ **What?** - Replaces BDB boiloff with CryoTanks boiloff. This is included in BDB's extras on the main branch, but can be useful if you're playing with the Apollo revamp.
 
-+ **Why?** Having two separate boiloff mechanics in the same save is weird. Note that CryoTanks boiloff is easy mode while BDB boiloff is "mission impossible."
++ **Why?** - Having two separate boiloff mechanics in the same save is weird. Note that CryoTanks boiloff is easy mode while BDB boiloff is "mission impossible."
 
-+ **Dependencies** Bluedog Design Bureau, CryoTanks
++ **Dependencies** - Bluedog Design Bureau, CryoTanks
 
 
 ### BDBKerbalismUpdate
@@ -54,29 +54,29 @@ Use at your own risk, generally **no support provided**. Please feel free to sub
 
 ### CNCJNSQStations
 
-+ **What?** Adds CommNetConstellation ground station definitions for JNSQ. Now part of JNSQ. Known issues: 1) Do not change default Ground Station enable/disable settings in base/KK settings pages as it bugs out CNC. 2) Stock Kerbin DSN names appear in flight for some stations, this is just a visual issue and has no gameplay consequences.
++ **What?** - Adds CommNetConstellation ground station definitions for JNSQ. Now part of JNSQ. Known issues: 1) Do not change default Ground Station enable/disable settings in base/KK settings pages as it bugs out CNC. 2) Stock Kerbin DSN names appear in flight for some stations, this is just a visual issue and has no gameplay consequences.
 
-+ **Why?** Because stock CommNet is boring and RealAntennas has no support for NFX reflectors.
++ **Why?** - Because stock CommNet is boring and RealAntennas has no support for NFX reflectors.
 
-+ **Dependencies** CommNetConstellation, JNSQ
++ **Dependencies** - CommNetConstellation, JNSQ
 
 
 ### GrimmHistorian
 
-+ **What?** Historian profile that I use in all my screenshots.
++ **What?** - Historian profile that I use in all my screenshots.
 
-+ **Why?** Why not.
++ **Why?** - Why not.
 
-+ **Dependencies** Historian.
++ **Dependencies** - Historian.
 
 
 ### JNSQUSIWarpDrive
 
-+ **What?** Adds scaling to USI WarpDrive for JNSQ. Untested.
++ **What?** - Adds scaling to USI WarpDrive for JNSQ. Untested.
 
-+ **Why?** USI WarpDrive scales with Sigma Dimensions, but JNSQ does not use Sigma Dimensions.
++ **Why?** - USI WarpDrive scales with Sigma Dimensions, but JNSQ does not use Sigma Dimensions.
 
-+ **Dependencies** JNSQ, USI WarpDrive
++ **Dependencies** - JNSQ, USI WarpDrive
 
 
 ### KFLateRepulsors
@@ -90,11 +90,11 @@ Use at your own risk, generally **no support provided**. Please feel free to sub
 
 ### KPBSMKSCentrifuge
 
-+ **What?** Changes Kerbal Planetary Base Systems nuclear centrifuge to behave like the one in MKS
++ **What?** - Changes Kerbal Planetary Base Systems nuclear centrifuge to behave like the one in MKS
 
-+ **Why?** Compatibility patch. Not heavily tested.
++ **Why?** - Compatibility patch. Not heavily tested.
 
-+ **Dependencies**  Kerbal Planetary Base Systems, USI MKS
++ **Dependencies** - Kerbal Planetary Base Systems, USI MKS
 
 
 ### ShowAllTechTreeNodes
