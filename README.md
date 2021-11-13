@@ -11,18 +11,18 @@ Dependencies: No hard dependencies. The patches activate and become useful when 
 ## Contents (GameData)
 
 + AkitaUntooled - Removes dependency on USI Tools from the Akita rover (this will disable the ground tether functionality).
-+ BDBContractsFix - Increases max simultaneous contracts in BDB, so that Apollo mission and others reliably appear.
-+ BDBKerbalismScienceUpdate - An update for Kerbalism BDB definitions. Adds missing science experiments and adapts some experiments to make more sense. KeyHole sample returns and GATV samples work as intended in BDB. 
++ BDBContractsFix - Increases max simultaneous contracts in BDB, so that the Apollo mission and others reliably appear.
++ BDBKerbalismUpdate - A series of patches to bridge the gap between Kerbalism and Bluedog Design Bureau. This complements Kerbalism's own existing BDB patch by porting many of the newer science experiments, adding missing animations to science experiments, adding sensible HDD data/sample capacity upgrade paths to probe cores, and adding radioactivity to BDB RTGs.
 + KFLateRepulsors - moves Kerbal Foundries repulsors to a new 4000 science node in Community Tech Tree
-+ ShowAllTechTreeNodes - Make sure to show all tech nodes regardless of other mods configs.
-+ USIB9TankTypes - B9PartSwitch tank types for USI mods. WIP.
-+ USIMalemuteB9Patch - B9 tanks for Malemute rover.
-+ USIMalemuteWheels - 1.12+ wheels patch for Malemute rover.
++ ShowAllTechTreeNodes - Always displays all tech tree nodes, regardless of other mods' configs.
++ USIB9TankTypes - B9PartSwitch tank types for USI mods. Work in progress, currently only tanks relevant to Malemute are implemented.
++ USIMalemuteB9Patch - B9 tanks for Malemute rover. **Depends on USIB9TankTypes.**
++ USIMalemuteWheels - Updates behaviour of Malemute rover's wheels to use the new KSP 1.12 wheel mechanics.
 
 
 ## Contents (Extras)
 
-+ BDBCryoTanks - replaces BDB boiloff with CryoTanks boiloff (now part of BDB master branch)
++ BDBCryoTanks - replaces BDB boiloff with CryoTanks boiloff. This is included in BDB's extras on the main branch, but can be useful if you're playing with the Apollo revamp.
 + CNCJNSQStations - adds CommNetConstellation ground station definitions for JNSQ. Now part of JNSQ. Known issues: 1) Do not change default Ground Station enable/disable settings in base/KK settings pages as it bugs out CNC. 2) Stock Kerbin DSN names appear in flight for some stations, this is just a visual issue and has no gameplay consequences.
 + Historian - my config for Historian (needs Historian, merge with its folder)
 + JNSQUSIWarpDrive - adds scaling to USI WarpDrive for JNSQ
