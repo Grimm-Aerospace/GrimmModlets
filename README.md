@@ -1,37 +1,136 @@
 # GrimmModlets
 
-Various KSP mini mods.
+Various KSP mini mods that I use in my own playthroughs.
 
-Installation: Unless noted otherwise below, each folder can be placed anywhere within your KSP installation's GameData folder.
+**Installation**: Copy the relevant modlet's GameData folder's contents into your own GameData, preserving the folder structure (though for most of these modlets you can actually place them anywhere in GameData with impunity).
 
 Use at your own risk, generally **no support provided**. Please feel free to submit pull requests or open issues though.
 
-Dependencies: No hard dependencies. The patches activate and become useful when their respective dependencies are met, use common sense (ie a patch that adds B9PartSwitch features to Malemute obviously requires both B9PartSwitch and Malemute to be installed).
+**Dependencies**: Module Manager is a hard dependency for all of these. Various additional dependencies are listed below. All explicitly listed dependencies are understood to be at minimum the latest version at the time of writing.
 
-## Contents (GameData)
+**Download**: [Github](https://github.com/Grimm-Aerospace/GrimmModlets/releases).
 
-+ AkitaUntooled - Removes dependency on USI Tools from the Akita rover (this will disable the ground tether functionality).
-+ BDBContractsFix - Increases max simultaneous contracts in BDB, so that the Apollo mission and others reliably appear.
-+ BDBKerbalismUpdate - A series of patches to bridge the gap between Kerbalism and Bluedog Design Bureau. This complements Kerbalism's own existing BDB patch by porting many of the newer science experiments, adding missing animations to science experiments, adding sensible HDD data/sample capacity upgrade paths to probe cores, and adding radioactivity to BDB RTGs.
-+ KFLateRepulsors - moves Kerbal Foundries repulsors to a new 4000 science node in Community Tech Tree
-+ ShowAllTechTreeNodes - Always displays all tech tree nodes, regardless of other mods' configs.
-+ USIB9TankTypes - B9PartSwitch tank types for USI mods. Work in progress, currently only tanks relevant to Malemute are implemented.
-+ USIMalemuteB9Patch - B9 tanks for Malemute rover. **Depends on USIB9TankTypes.**
-+ USIMalemuteWheels - Updates behaviour of Malemute rover's wheels to use the new KSP 1.12 wheel mechanics.
+**Source**: [Github](https://github.com/Grimm-Aerospace/GrimmModlets).
 
+**License**: MIT. See included LICENSE file for details. Some parts may be under a different license, if so then this is explicitly stated in the source.
 
-## Contents (Extras)
+## Contents
 
-+ BDBCryoTanks - replaces BDB boiloff with CryoTanks boiloff. This is included in BDB's extras on the main branch, but can be useful if you're playing with the Apollo revamp.
-+ CNCJNSQStations - adds CommNetConstellation ground station definitions for JNSQ. Now part of JNSQ. Known issues: 1) Do not change default Ground Station enable/disable settings in base/KK settings pages as it bugs out CNC. 2) Stock Kerbin DSN names appear in flight for some stations, this is just a visual issue and has no gameplay consequences.
-+ Historian - my config for Historian (needs Historian, merge with its folder)
-+ JNSQUSIWarpDrive - adds scaling to USI WarpDrive for JNSQ
-+ KPBSMKSCentrifuge - changes Kerbal Planetary Base Systems nuclear centrifuge to behave like the one in MKS
+### AkitaUntooled 
+
++ **What?** - Removes dependency on USI Tools from the Akita rover (this will disable the ground tether functionality).
+
++ **Why?** - In case you want to use Akita rover without USI Tools and are OCD about warning messages. 
+
++ **Dependencies** - USI Akita rover
 
 
-## TODO
+### BDBContractsFix
 
-1. fix JNSQUSIWarpDrive patch activation conditions
-2. add MKS tank types for B9
-3. convert remaining USI mods from FS to B9PS
-4. add emitters for RTG
++ **What?** - Increases max simultaneous contracts in BDB, so that the Apollo mission and others reliably appear.
+
++ **Why?** - To take one small step for Kerbalkind.
+
++ **Dependencies** - Bluedog Design Bureau, Contract Configurator
+
+
+### BDBCryoTanks
+
++ **What?** Replaces BDB boiloff with CryoTanks boiloff. This is included in BDB's extras on the main branch, but can be useful if you're playing with the Apollo revamp.
+
++ **Why?** Having two separate boiloff mechanics in the same save is weird. Note that CryoTanks boiloff is easy mode while BDB boiloff is "mission impossible."
+
++ **Dependencies** Bluedog Design Bureau, CryoTanks
+
+
+### BDBKerbalismUpdate
+
++ **What?** - A series of patches to bridge the gap between Kerbalism and Bluedog Design Bureau. This complements Kerbalism's own existing BDB patch by porting many of the newer science experiments, adding missing animations to science experiments, adding (hopefuly) sensible HDD data/sample capacity upgrade paths to command modules, and adding radioactivity emission and unloaded simulation to RTGs.
+
++ **Why?** - Because the Kerbalism BDB patch is out of date as of writing.
+
++ **Dependencies** - Bluedog Design Bureau, Kerbalism, Kerbalism Default profile
+
+
+### CNCJNSQStations
+
++ **What?** Adds CommNetConstellation ground station definitions for JNSQ. Now part of JNSQ. Known issues: 1) Do not change default Ground Station enable/disable settings in base/KK settings pages as it bugs out CNC. 2) Stock Kerbin DSN names appear in flight for some stations, this is just a visual issue and has no gameplay consequences.
+
++ **Why?** Because stock CommNet is boring and RealAntennas has no support for NFX reflectors.
+
++ **Dependencies** CommNetConstellation, JNSQ
+
+
+### GrimmHistorian
+
++ **What?** Historian profile that I use in all my screenshots.
+
++ **Why?** Why not.
+
++ **Dependencies** Historian.
+
+
+### JNSQUSIWarpDrive
+
++ **What?** Adds scaling to USI WarpDrive for JNSQ.
+
++ **Why?** USI WarpDrive scales with Sigma Dimensions, but JNSQ does not use Sigma Dimensions.
+
++ **Dependencies** JNSQ, USI WarpDrive
+
+
+### KFLateRepulsors
+
++ **What?** - Moves Kerbal Foundries repulsors to a new 4000 science node in Community Tech Tree.
+
++ **Why?** - Early repulsors feel like too much cheating.
+
++ **Dependencies** - Community Tech Tree, Kerbal Foundries, ShowAllTechTreeNodes (see below)
+
+
+### KPBSMKSCentrifuge
+
++ **What?** Changes Kerbal Planetary Base Systems nuclear centrifuge to behave like the one in MKS
+
++ **Why?** Compatibility patch. Not heavily tested.
+
++ **Dependencies**  Kerbal Planetary Base Systems, USI MKS
+
+
+### ShowAllTechTreeNodes
+
++ **What?** - Always displays all tech tree nodes, regardless of other mods' configs.
+
++ **Why?** - Fixes inconsistent behavior across mods in tech tree.
+
++ **Dependencies** - None.
+
+ 
+### USIB9TankTypes
+
++ **What?** - B9PartSwitch tank types for USI mods. Work in progress, currently only tanks relevant to Malemute are added.
+
++ **Why?** - Because I hate Firespitter.
+
++ **Dependencies** - B9 Part Switch
+
+ 
+### USIMalemuteB9Patch
+
++ **What?** - Replaces Malemute rover tank selection backing with B9 Part Switch.
+
++ **Why?** - Because I still hate Firespitter.
+
++ **Dependencies** - USI Malemute rover, B9 Part Switch, USIB9TankTypes (see above)
+
+
+### USIMalemuteWheels
+
++ **What?** - Updates behaviour of Malemute rover's wheels to use the new KSP 1.12 wheel mechanics.
+
++ **Why?** - Minor change to wheel behavior to keep Malemute relevant in KSP 1.12
+
++ **Dependencies** - Malemute, KSP version >= 1.12.0
+
+
+
