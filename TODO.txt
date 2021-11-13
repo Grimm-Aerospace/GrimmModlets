@@ -1,0 +1,6 @@
+TODO
+====
+
+1) fix JNSQUSIWarpDrive patch activation conditions
+2) add MKS tank types for B9
+3) convert remaining USI mods from FS to B9PS
