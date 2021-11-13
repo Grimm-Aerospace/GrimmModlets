@@ -1,6 +1,9 @@
 GRIMM MODLETS CHANGELOG
 =======================
 
+v0.0.1-hotfix1
+-- Mamelute B9 hotfix
+
 v0.0.1
 -- Initial release
 
