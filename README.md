@@ -1,4 +1,4 @@
-# GrimmModlets
+# Grimm Modlets
 
 Various KSP mini mods that I use in my own playthroughs.
 
@@ -12,7 +12,7 @@ Use at your own risk, generally **no support provided**. Please feel free to sub
 
 **Source**: [Github](https://github.com/Grimm-Aerospace/GrimmModlets).
 
-**License**: MIT. See included LICENSE file for details. Some parts may be under a different license, if so then this is explicitly stated in the source.
+**License**: MIT. See included [LICENSE](https://github.com/Grimm-Aerospace/GrimmModlets/blob/main/LICENSE) file for details. Some parts may be under a different license, if so then this is explicitly stated in the source.
 
 ## Contents
 
@@ -72,7 +72,7 @@ Use at your own risk, generally **no support provided**. Please feel free to sub
 
 ### JNSQUSIWarpDrive
 
-+ **What?** Adds scaling to USI WarpDrive for JNSQ.
++ **What?** Adds scaling to USI WarpDrive for JNSQ. Untested.
 
 + **Why?** USI WarpDrive scales with Sigma Dimensions, but JNSQ does not use Sigma Dimensions.
 
@@ -128,7 +128,7 @@ Use at your own risk, generally **no support provided**. Please feel free to sub
 
 + **What?** - Updates behaviour of Malemute rover's wheels to use the new KSP 1.12 wheel mechanics.
 
-+ **Why?** - Minor change to wheel behavior to keep Malemute relevant in KSP 1.12
++ **Why?** - Minor change to wheel behavior to keep Malemute wheels relevant in KSP 1.12
 
 + **Dependencies** - Malemute, KSP version >= 1.12.0
 
