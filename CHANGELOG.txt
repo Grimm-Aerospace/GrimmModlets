@@ -1,6 +1,12 @@
 GRIMM MODLETS CHANGELOG
 =======================
 
+v0.0.2
+-- Added Kerbalism lab experiments to BDB labs.
+-- Added sanity check for Malemute B9 patch.
+-- Fixed issue #1 (B9 warning due to incorrect RTG patching)
+-- added support for spectroscopy scan (bd_photopolarimeter)
+
 v0.0.1-hotfix1
 -- Mamelute B9 hotfix
 
