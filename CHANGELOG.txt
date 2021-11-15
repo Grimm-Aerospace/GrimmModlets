@@ -3,7 +3,7 @@ GRIMM MODLETS CHANGELOG
 
 v0.0.3 (upcoming)
 -- Reorganized folders for easier navigation. All modlets enabled by default, delete the ones you do not want.
--- 
+-- Added activation conditions for WarpDrive patch.
 
 v0.0.2
 -- Added Kerbalism lab experiments to BDB labs.
