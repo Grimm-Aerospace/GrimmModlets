@@ -2,7 +2,7 @@
 
 Various KSP mini mods that I use in my own playthroughs.
 
-**Installation**: Copy the relevant modlet's GameData folder's contents into your own GameData, preserving the folder structure (though for most of these modlets you can actually place them anywhere in GameData with impunity).
+**Installation**: Copy the files from Contents/GameData to your KSP's GameData. Then go into GameData\GrimmAerospace\GrimmModlets and delete the folders of the modlets you do not want, keeping in mind their dependencies below.
 
 Use at your own risk, generally **no support provided**. Please feel free to submit pull requests or open issues though.
 
