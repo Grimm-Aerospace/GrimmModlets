@@ -63,7 +63,7 @@ Use at your own risk, generally **no support provided**. Please feel free to sub
 
 ### KPBSKerbalismUpdate
 
-+ **What?** - Fixes NRE spam (see KPBS PR 128), converts greenhouse to Kerbalism experiment. The PR version has more content but until the PR is processed you can use this version if desired.
++ **What?** - Fixes NRE spam (see KPBS PR 128), converts greenhouse to Kerbalism experiment, adds Kerbalism lab experiments to labs, fixes some habitat values, etc. The PR version has more content but until the PR is processed you can use this version if desired.
 
 + **Why?** - Compatibility patch for out of date configs. 
 
