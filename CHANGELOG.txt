@@ -1,8 +1,8 @@
 GRIMM MODLETS CHANGELOG
 =======================
 
-v0.0.3 (upcoming)
--- Reorganized folders for easier navigation. All modlets enabled by default, delete the ones you do not want.
+v0.0.3
+-- Reorganized folders for easier navigation. All modlets (except Extras) enabled by default, delete the ones you do not want.
 -- Added activation conditions for WarpDrive patch.
 -- Added KPBS Kerbalism patch - fixes NRE spam, converts greenhouse experiment, removes duplicate lab module, adds kerbalism lab experiments to labs, fixes a few of the habitat values.
 
