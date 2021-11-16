@@ -34,15 +34,6 @@ Use at your own risk, generally **no support provided**. Please feel free to sub
 + **Dependencies** - Bluedog Design Bureau, Contract Configurator
 
 
-### BDBCryoTanks
-
-+ **What?** - Replaces BDB boiloff with CryoTanks boiloff. This is included in BDB's extras on the main branch, but can be useful if you're playing with the Apollo revamp.
-
-+ **Why?** - Having two separate boiloff mechanics in the same save is weird. Note that CryoTanks boiloff is easy mode while BDB boiloff is "mission impossible."
-
-+ **Dependencies** - Bluedog Design Bureau, CryoTanks
-
-
 ### BDBKerbalismUpdate
 
 + **What?** - A series of patches to bridge the gap between Kerbalism and Bluedog Design Bureau. This complements Kerbalism's own existing BDB patch by porting many of the newer science experiments, adding missing animations to science experiments, adding (hopefuly) sensible HDD data/sample capacity upgrade paths to command modules, and adding radioactivity emission and unloaded simulation to RTGs.
@@ -50,24 +41,6 @@ Use at your own risk, generally **no support provided**. Please feel free to sub
 + **Why?** - Because the Kerbalism BDB patch is out of date as of writing.
 
 + **Dependencies** - Bluedog Design Bureau, Kerbalism, Kerbalism Default profile
-
-
-### CNCJNSQStations
-
-+ **What?** - Adds CommNetConstellation ground station definitions for JNSQ. Now part of JNSQ. Known issues: 1) Do not change default Ground Station enable/disable settings in base/KK settings pages as it bugs out CNC. 2) Stock Kerbin DSN names appear in flight for some stations, this is just a visual issue and has no gameplay consequences.
-
-+ **Why?** - Because stock CommNet is boring and RealAntennas has no support for NFX reflectors.
-
-+ **Dependencies** - CommNetConstellation, JNSQ
-
-
-### GrimmHistorian
-
-+ **What?** - Historian profile that I use in all my screenshots.
-
-+ **Why?** - Why not.
-
-+ **Dependencies** - Historian.
 
 
 ### JNSQUSIWarpDrive
@@ -86,6 +59,15 @@ Use at your own risk, generally **no support provided**. Please feel free to sub
 + **Why?** - Early repulsors feel like too much cheating.
 
 + **Dependencies** - Community Tech Tree, Kerbal Foundries, ShowAllTechTreeNodes (see below)
+
+
+### KPBSKerbalismUpdate
+
++ **What?** - Fixes NRE spam (see KPBS PR 128), converts greenhouse to Kerbalism experiment. The PR version has more content but until the PR is processed you can use this version if desired.
+
++ **Why?** - Compatibility patch for out of date configs. 
+
++ **Dependencies** - Kerbal Planetary Base Systems, Kerbalism
 
 
 ### KPBSMKSCentrifuge
@@ -131,6 +113,36 @@ Use at your own risk, generally **no support provided**. Please feel free to sub
 + **Why?** - Minor change to wheel behavior to keep Malemute wheels relevant in KSP 1.12
 
 + **Dependencies** - Malemute, KSP version >= 1.12.0
+
+
+## Extras
+
+You probably won't need these and they are not installed by default but are located in the Content/Extras folder.
+
+### BDBCryoTanks
+
++ **What?** - Replaces BDB boiloff with CryoTanks boiloff. This is included in BDB's extras on the main branch, but can be useful if you're playing with the Apollo revamp.
+
++ **Why?** - Having two separate boiloff mechanics in the same save is weird. Note that CryoTanks boiloff is easy mode while BDB boiloff is "mission impossible."
+
++ **Dependencies** - Bluedog Design Bureau, CryoTanks
+
+### CNCJNSQStations
+
++ **What?** - Adds CommNetConstellation ground station definitions for JNSQ. Now part of JNSQ. Known issues: 1) Do not change default Ground Station enable/disable settings in base/KK settings pages as it bugs out CNC. 2) Stock Kerbin DSN names appear in flight for some stations, this is just a visual issue and has no gameplay consequences.
+
++ **Why?** - Because stock CommNet is boring and RealAntennas has no support for NFX reflectors.
+
++ **Dependencies** - CommNetConstellation, JNSQ
+
+
+### GrimmHistorian
+
++ **What?** - Historian profile that I use in all my screenshots.
+
++ **Why?** - Why not.
+
++ **Dependencies** - Historian.
 
 
 
