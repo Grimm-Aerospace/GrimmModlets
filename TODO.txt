@@ -1,7 +1,6 @@
 TODO
 ====
 
-1) add MKS tank types for B9
-2) convert remaining USI mods from FS to B9PS
+2) convert remaining USI mods from FS to B9PS (almost done?)
 3) replace BDB EC generators like the CSM fuel cell with Kerbalism equivalents
 4) fix broken contracts
