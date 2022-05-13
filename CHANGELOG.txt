@@ -1,6 +1,11 @@
 GRIMM MODLETS CHANGELOG
 =======================
 
+
+v0.0.4
+-- USIB9TankTypes is now B9TankTypes as more than just USI is provided
+-- New modlet: USIKontainersB9Patch - full B9 conversion for USI Kontainers, removes Firespitter modules in favor of B9 Part Switch.
+
 v0.0.3
 -- Reorganized folders for easier navigation. All modlets (except Extras) enabled by default, delete the ones you do not want.
 -- Added activation conditions for WarpDrive patch.

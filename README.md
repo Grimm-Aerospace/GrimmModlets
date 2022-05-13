@@ -88,22 +88,32 @@ Use at your own risk, generally **no support provided**. Please feel free to sub
 + **Dependencies** - None.
 
  
-### USIB9TankTypes
+### B9TankTypes
 
-+ **What?** - B9PartSwitch tank types for USI mods. Work in progress, currently only tanks relevant to Malemute are added.
++ **What?** - B9PartSwitch tank types primarily for USI mods. 
 
-+ **Why?** - Because I hate Firespitter.
++ **Why?** - B9PS is more modern and user friendly than Firespitter.
 
 + **Dependencies** - B9 Part Switch
+
+
+### USIKontainersB9Patch
+
++ **What?** - Replaces USI Kontainers tank selection backing with B9 Part Switch.
+
++ **Why?** - B9PS is more modern and user friendly than Firespitter.
+
++ **Dependencies** - USI Kontainers, B9 Part Switch, USIB9TankTypes (see above)
 
  
 ### USIMalemuteB9Patch
 
 + **What?** - Replaces Malemute rover tank selection backing with B9 Part Switch.
 
-+ **Why?** - Because I still hate Firespitter.
++ **Why?** - B9PS is more modern and user friendly than Firespitter.
 
 + **Dependencies** - USI Malemute rover, B9 Part Switch, USIB9TankTypes (see above)
+
 
 
 ### USIMalemuteWheels
