@@ -115,6 +115,14 @@ Use at your own risk, generally **no support provided**. Please feel free to sub
 + **Dependencies** - USI Malemute rover, B9 Part Switch, USIB9TankTypes (see above)
 
 
+### USIMKSB9Patch
+
++ **What?** - Replaces USI MKS tank selection backing with B9 Part Switch.
+
++ **Why?** - B9PS is more modern and user friendly than Firespitter.
+
++ **Dependencies** - USI MKS, B9 Part Switch, USIB9TankTypes (see above)
+
 
 ### USIMalemuteWheels
 
