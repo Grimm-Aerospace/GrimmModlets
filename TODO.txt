@@ -3,10 +3,14 @@ TODO
 
 Ideas and roadmap for some patches. Some things from this list may end up as PRs to other mods instead - to be decided case by case.
 
-1) integrate mks with systemheat (colonization boni?) - especially MKS reactors
+1) integrate mks with systemheat (colonization boni?) - especially MKS reactors - maybe skip as NFT already covers reactors sufficiently
 2) convert remaining USI mods from FS to B9PS (almost done?)
 3) replace BDB EC generators like the CSM fuel cell with Kerbalism equivalents
 4) fix broken contracts
 5) MKS NTRs and Ranger power pack to use decaying RTGs from NFE
 6) BDB RTGs to use decaying RTGs from NFE
+
+x) cryogenic tank support (boiloff/cooling) for USI Glycerol tank
+x) Glycerol storage options via NFT Cryotanks
+x) Bumblebee mod - RTG decay ala NFE
 
