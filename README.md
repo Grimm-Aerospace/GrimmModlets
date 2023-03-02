@@ -124,6 +124,16 @@ Use at your own risk, generally **no support provided**. Please feel free to sub
 + **Dependencies** - USI MKS, B9 Part Switch, USIB9TankTypes (see above)
 
 
+### USIExpPackB9Patch
+
++ **What?** - Replaces USI ExpPack (Packrat) tank selection backing with B9 Part Switch.
+
++ **Why?** - B9PS is more modern and user friendly than Firespitter.
+
++ **Dependencies** - USI ExpPack, B9 Part Switch, USIB9TankTypes (see above)
+
+
+
 ### USIMalemuteWheels
 
 + **What?** - Updates behaviour of Malemute rover's wheels to use the new KSP 1.12 wheel mechanics.
