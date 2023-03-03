@@ -132,7 +132,13 @@ Use at your own risk, generally **no support provided**. Please feel free to sub
 
 + **Dependencies** - USI ExpPack, B9 Part Switch, USIB9TankTypes (see above)
 
+### SandcastleMKS
 
++ **What?** - EL/Sandcastle/MKS compatibility patch.
+
++ **Why?** - To be able to use Sandcastle EL parts in an MKS EL game.
+
++ **Dependencies** - USI MKS, Sandcastle, Extraplanetary Launchpads, B9PartSwitch, B9TankTypes (see above)
 
 ### USIMalemuteWheels
 
