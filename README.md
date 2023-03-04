@@ -148,6 +148,13 @@ Use at your own risk, generally **no support provided**. Please feel free to sub
 
 + **Dependencies** - Malemute, KSP version >= 1.12.0
 
+### USISystemHeatPatch
+
++ **What?** - SystemHeat patch for USI MKS, USI ReactorPack, and the StarLifter reactor from USI FTT
+
++ **Why?** - Unified experience with MKS and SystemHeat/Far Future Tech.
+
++ **Dependencies** - USI MKS, USI ReactorPack, SystemHeat with Extras, Near Future Electrical
 
 ## Extras
 
