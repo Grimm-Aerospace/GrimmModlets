@@ -138,7 +138,7 @@ Use at your own risk, generally **no support provided**. Please feel free to sub
 
 + **Why?** - To be able to use Sandcastle EL parts in an MKS EL game.
 
-+ **Dependencies** - USI MKS, Sandcastle, Extraplanetary Launchpads, B9PartSwitch, B9TankTypes (see above)
++ **Dependencies** - USI MKS, USI Konstruction, Sandcastle, Extraplanetary Launchpads, B9PartSwitch, B9TankTypes (see above)
 
 ### USIMalemuteWheels
 
